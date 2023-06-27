@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SymDa - Data Analytics Experts</title>
+    <link rel="stylesheet" type="text/css" href="static/custom.css">
+</head>
+<body>
+    <header>
+        <h1>SymDa - Data Analytics</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="/forum">FORUM</a></li>
+                <li><a href="{{ url_for('signup') }}" class="btn">Signup</a></li>
+                <li><a href="{{ url_for('login') }}" class="btn">Login</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+
+            <div class="auth-options">
+                
+            </div>
+
+        </nav>
+        
+    </header>
+    <section class="banner">
+        <h2>Data Analytics Projects with Precision</h2>
+        <p>Unlock the power of your data with SymDa's data analytics solutions. We provide accurate and actionable insights to drive your business forward.</p>
+        <a href="#" class="cta-button">Learn More</a>
+    </section>
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Data Analysis</h3>
+            <p>Our expert team analyzes your data to extract valuable insights and patterns, helping you make informed decisions.</p>
+        </div>
+        <div class="service">
+            <h3>Data Visualization</h3>
+            <p>We create visually compelling dashboards and reports to present your data in a meaningful way, aiding better understanding and communication.</p>
+        </div>
+        <div class="service">
+            <h3>Data Mining</h3>
+            <p>Using advanced techniques, we uncover hidden patterns and trends in your data, enabling you to make predictive and prescriptive analyses.</p>
+        </div>
+    </section>
+    <section class="projects">
+        <h2>Recent Projects</h2>
+        <div class="project">
+            <h3>Market Segmentation Analysis</h3>
+            <p>We helped a leading e-commerce company identify key customer segments and target their marketing efforts effectively.</p>
+        </div>
+        <div class="project">
+            <h3>Sales Forecasting Model</h3>
+            <p>We developed a robust sales forecasting model for a manufacturing company, improving their inventory management and planning.</p>
+        </div>
+        <div class="project">
+            <h3>Customer Churn Prediction</h3>
+            <p>We built a predictive model for a telecom company to identify customers at risk of churning, enabling targeted retention strategies.</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to harness the power of data analytics for your business? Get in touch with our team today!</p>
+        <p>Email: info@symda.com</p>
+        <p>Phone: +1 123-456-7890</p>
+        <a href="#" class="cta-button">Contact Us</a>
+    </section>
+    <footer>
+        <p>&copy; 2023 SymDa. All rights reserved.</p>
+    </footer>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
